@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+class Point{
+    private:
+    int x;
+    int y;
+    public:
+    Point(int a,int b):x(a),y(b){
+        std::cout<<x<<" "<<y<<endl;
+    }
+};
+int main(){
+    Point p1(3,4);
+}
